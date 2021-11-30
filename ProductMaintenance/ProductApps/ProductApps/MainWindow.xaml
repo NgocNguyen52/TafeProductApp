@@ -6,7 +6,7 @@
         <Label Content="Product:" HorizontalAlignment="Left" Height="30" Margin="46,37,0,0" VerticalAlignment="Top" Width="61"/>
         <Label Content="Price $:" HorizontalAlignment="Left" Height="30" Margin="46,78,0,0" VerticalAlignment="Top" Width="61"/>
         <Label Content="Quantity:" HorizontalAlignment="Left" Height="30" Margin="48,113,0,0" VerticalAlignment="Top" Width="69" RenderTransformOrigin="0.371,0.498"/>
-        <Label Content="Total Payment $:" HorizontalAlignment="Left" Height="30" Margin="46,160,0,0" VerticalAlignment="Top" Width="96"/>
+        <Label Content="Total Payment $:" HorizontalAlignment="Left" Height="30" Margin="21,209,0,0" VerticalAlignment="Top" Width="96"/>
         <TextBlock Name="totalPaymentTextBlock" HorizontalAlignment="Left" Height="23" Margin="164,167,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="75"/>
         <TextBox Name="productTextBox" HorizontalAlignment="Left" Height="24" Margin="122,37,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="96"/>
         <TextBox Name="priceTextBox" HorizontalAlignment="Left" Height="24" Margin="122,78,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="77"/>
@@ -15,7 +15,8 @@
         <Button Name="clearButton" Content="C_lear" HorizontalAlignment="Left" Height="34" Margin="327,209,0,0" VerticalAlignment="Top" Width="122" Click="clearButton_Click"/>
         <Button Name="closeButton" Content="Cl_ose" HorizontalAlignment="Left" Height="34" Margin="327,264,0,0" VerticalAlignment="Top" Width="122" Click="closeButton_Click"/>
         <Label Content="Total Charge after adding the delivery charge ($25): " HorizontalAlignment="Left" Height="35" />
-        <TextBlock Name ="totalChargeTextBlock"/> 
+        <Label Content="Total Charge after adding the wrap charge ($5): " HorizontalAlignment="Left" Margin="10,171,0,118" />
+        <TextBlock Name ="totalChargeTextBlock" Margin="164,190,244,98"/> 
 
 
     </Grid>
